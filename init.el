@@ -151,7 +151,7 @@
  '(custom-safe-themes
    (quote
     ("2382f28b5c665b4a95de4822019b10a2d28bb05a2e5a2ef65e10780c9475d9a1" default)))
- '(package-selected-packages (quote (panda-theme rainbow-delimiters))))
+ '(package-selected-packages (quote (matlab-mode panda-theme rainbow-delimiters))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
