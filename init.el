@@ -65,6 +65,8 @@
 ;; source: https://github.com/Fanael/rainbow-delimiters
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+;; entable auto save for remote files
+(setq ange-ftp-make-backup-files 1)
 
 
 ;; enable python mode
