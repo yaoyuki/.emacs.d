@@ -15,8 +15,15 @@
 ;;      (color-theme-initialize)
 ;;      (color-theme-hober)))
 
+
+;;; In terminal (TTY), the terminal itself controls the real background color,
+;;; so Emacs face values like "#000000" can still look lighter/gray.
+;;; https://emacs.stackexchange.com/questions/56214/use-the-terminal-background-color-for-the-emacs-nw
+(set-face-background 'default "undefined")
+
 ;;; Choose Color theme Panda
 (load-theme 'panda t)
+
 
 ;;; Assign newline-and-indent to C-m
 (global-set-key (kbd "C-m") 'newline-and-indent)

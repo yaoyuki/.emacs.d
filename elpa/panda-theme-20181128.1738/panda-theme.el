@@ -22,8 +22,8 @@
   "A Superminimal, dark Syntax Theme")
 
 (let  ((bg "#292A2B") ;; ((bg "#000000")
+;;; (let  ((bg "#000000") ;; ((bg "#000000")       
       (bg+ "#404954") ;; emphasis
-
       ;;(fg- "#676B79") ;; de-emphasis
       (fg- "#9497a1") ;; replace fg-
       (fg "#E6E6E6")
@@ -155,3 +155,4 @@
 (provide 'panda-theme)
 
 ;;; panda-theme.el ends here
+
